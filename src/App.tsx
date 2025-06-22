@@ -19,7 +19,7 @@ function App() {
       <div className="bg-white rounded-lg shadow-lg p-8 max-w-md w-full">
         <button 
           onClick={() => setCount((count) => count + 1)}
-          className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors mb-4"
+          className="w-full max-w-[200px] bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors mb-4"
         >
           Count is {count}
         </button>
